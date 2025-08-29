@@ -28,11 +28,17 @@ int main(){
     cout << "ASCII value of a is : " << marks << endl;
 
 
-    return 0;
+    
 
 
 
 
     // Explicit conversion : large or big data type to small data type
+    double price = 100.98;
+
+    int newPrice = (int) price;
+    cout << newPrice << endl;
+    return 0;
+
 
 }
